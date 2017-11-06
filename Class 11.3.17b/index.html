@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Box Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <form action="http://formreflector.azurewebsites.net/form-reflector/" method="post">
+
+        <fieldset>
+            <legend>The Man The Myth The?</legend>
+            <form action="/my-handling-form-page" method="post">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+                <div>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_mail">
+                </div>
+                <div>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </div>
+
+
+                <br>Day of the week that works best for you</br>
+
+                <label for="best-day">
+                    
+
+                        <input type="radio" id="best-day" name="Best Day" value="Monday">
+                        <label for="Monday"> Monday</label>
+                        <br>
+                        <input type="radio" id="best-day" name="Best Day" value="Tuesday">
+                        <label for="Tuesday"> Tuesday </label>
+                        <br>
+                        <input type="radio" id="best-day" name="Best Day" value="Wensday">
+                        <label for="Wenesday"> Wenesday</label>
+                        <br>
+                        <input type="radio" id="best-day" name="Best Day" value="Thursday">
+                        <label for="Thursday"> Thursday</label>
+                        <br>
+                        <input type="radio" id="best-day" name="Best Day" value="Friday">
+                        <label for="Friday"> Friday</label>
+                        <br>
+                   
+
+                </label>
+
+
+
+
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+
+                <div>
+                    <button type="submit">Submit Here</button>
+                    <button type="reset">Clear Here</button>
+
+                </div>
+        </fieldset>
+        </form>
+</body>
+
+</html>
